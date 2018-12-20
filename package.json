@@ -1,0 +1,30 @@
+{
+  "name": "seed",
+  "version": "1.0.0",
+  "description": "Seed project for standard node microservices",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "nodemon .",
+    "serve": "node .",
+    "test": "mocha --opts mocha.opts src/",
+    "lint": "standard --fix"
+  },
+  "author": {
+    "name": "Ben Bultman",
+    "email": "bultman.ben@gmail.com"
+  },
+  "dependencies": {
+    "exp-config": "^2.0.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "rotating-file-stream": "^1.3.6",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.4",
+    "standard": "^11.0.1"
+  }
+}

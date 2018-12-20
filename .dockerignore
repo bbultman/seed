@@ -1,0 +1,18 @@
+# 3rd-party dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Settings and Configurations
+.env
+.env.example
+
+# Other
+.DS_Store
+.git*
+.nvmrc
+.sw?
+nodemon.json
+*~

@@ -1,0 +1,13 @@
+# 3rd-party dependencies
+node_modules
+
+# Logs
+logs/*
+*.log
+
+# Settings and Configurations
+.env
+.idea
+
+# Other
+.DS_Store
